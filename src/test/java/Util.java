@@ -13,4 +13,8 @@ public class Util {
         }
         return filecontent;
     }
+
+    public Object[] readFromExcel(String fileName, String sheetName){
+
+    }
 }
