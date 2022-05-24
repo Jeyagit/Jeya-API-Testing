@@ -1,0 +1,10 @@
+{
+  "firstName": "{{firstName}}",
+  "lastName": "{{lastName}}",
+  "studentID": "{{stuID}}",
+  "grade": "{{grade}}",
+  "age": "{{age}}",
+  "score": "{{score}}",
+  "TeacherName": "{{teacherName}}",
+  "isGifted": false
+}

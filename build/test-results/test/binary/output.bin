@@ -1,0 +1,2 @@
+Status Code: 200
+—Response Body: {"firstName":"Anu","lastName":"Tamil","studentID":"101","grade":"5","age":"11","score":"78","TeacherName":"Sita Ram","isGifted":false}
