@@ -1,7 +1,7 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.*;
 
 public class Util {
     public String readFromFileAndConvertToString(String filePath) throws IOException {
@@ -14,7 +14,11 @@ public class Util {
         return filecontent;
     }
 
-    public Object[] readFromExcel(String fileName, String sheetName){
+    public Object[] readFromExcel(String fileName, String sheetName) throws IOException {
+        FileInputStream file = new FileInputStream(fileName);
+        Workbook workbook = new XSSFWorkbook(file);
+
+
 
     }
 }
