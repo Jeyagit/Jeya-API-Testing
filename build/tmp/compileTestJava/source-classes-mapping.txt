@@ -2,11 +2,14 @@ CreateAndVerifyStub.java
  CreateAndVerifyStub
 ResponseTemplate.java
  ResponseTemplate
-test1.java
- test1
+ExcelAsDataProvider.java
+ ExcelAsDataProvider
+JUnitDataProviderExampleIT.java
+ JUnitDataProviderExampleIT
 VerifyMockService.java
  VerifyMockService
 Util.java
  Util
+ Util$1
 TestStudentGet.java
  TestStudentGet
